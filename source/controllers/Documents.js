@@ -131,12 +131,12 @@ async function getByCpf(cpf) {
     console.log('getByCpf', cpf)
 
     try {
-        listaDeProcessos.forEach(item => {
-            admin.firestore().collection("docs").doc(item.docs[0].id).set({
-                ...item,
-                docs: item.docs.map(doc => ({...doc, id: doc.id.replaceAll('.', '').replaceAll('-', '')}))
-            })
-        })
+        // listaDeProcessos.forEach(item => {
+        //     admin.firestore().collection("docs").doc(item.docs[0].id).set({
+        //         ...item,
+        //         docs: item.docs.map(doc => ({...doc, id: doc.id.replaceAll('.', '').replaceAll('-', '')}))
+        //     })
+        // })
 
         const response = await admin.firestore().collection("users").where("cpf", "==", `${cpf}`).get();
         const data = response.docs.map((doc) => ({...doc.data(), id: doc.id}));
