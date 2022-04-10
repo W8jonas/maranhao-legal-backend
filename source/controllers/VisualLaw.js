@@ -1,7 +1,6 @@
 const admin = require("firebase-admin");
 const fetch = require("node-fetch");
 
-
 async function getById(id) {
     console.log('getById', id)
 
@@ -10,13 +9,11 @@ async function getById(id) {
 		headers: {"Accept": "application/json", "Content-Type": "application/json", "mode": "no-cors"},
 	};
 
-	try { 
+	try {
         const response = await admin.firestore().collection("docs").doc(id).get();
         const data = response.data()
 
-        const urlFetch= `https://maranhao-legal-pdf-api.herokuapp.com/categorias/${data[0].id}`
-
-        console.log('urlFetch: ', urlFetch)
+        const urlFetch= `https://maranhao-legal-pdf-api.herokuapp.com/categorias/${data.docs[0].id}`
 
 		const response2 = await fetch(urlFetch, options);
 		const responseJson = await response2.json();

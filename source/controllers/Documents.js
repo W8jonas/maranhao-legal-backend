@@ -115,7 +115,6 @@ const listaDeProcessos = [
     },
 ]
 
-
 const listaDeIds = [
     {id: '6000871-19.2014.8.13.0027', name: 'DIREITO DO CONSUMIDOR (1156) - Contratos de Consumo (7771) - Bancário'},
     {id: '2361062-34.2014.8.13.0024', name: 'DIREITO CIVIL / Obrigações / Espécies de Contratos / Alienação Fiduciári'},
@@ -127,7 +126,6 @@ const listaDeIds = [
     {id: '5006647-58.2016.8.13.0702', name: 'DIREITO CIVIL / Obrigações / Espécies de Contratos / Alienação Fiduciári'},
     {id: '5012217-13.2016.8.13.0027', name: 'DIREITO CIVIL / Obrigações / Espécies de Contratos / Alienação Fiduciária'},
 ]
-
 
 async function getByCpf(cpf) {
     console.log('getByCpf', cpf)
