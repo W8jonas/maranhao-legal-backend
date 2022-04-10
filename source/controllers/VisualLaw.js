@@ -14,7 +14,11 @@ async function getById(id) {
         const response = await admin.firestore().collection("docs").doc(id).get();
         const data = response.data()
 
-		const response2 = await fetch(`https://maranhao-legal-pdf-api.herokuapp.com/categorias`, options);
+        const urlFetch= `https://maranhao-legal-pdf-api.herokuapp.com/categorias/${data[0].id}`
+
+        console.log('urlFetch: ', urlFetch)
+
+		const response2 = await fetch(urlFetch, options);
 		const responseJson = await response2.json();
 
 		return {
