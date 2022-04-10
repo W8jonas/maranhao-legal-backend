@@ -81,6 +81,23 @@ Acesse agora nosso site,
 clique aqui.
 </a>
 
+Acesse agora nosso site institucional,
+<a href="https://sites.google.com/view/maranhaolegal/">
+clique aqui.
+</a>
+
+Conheça o código da nossa solução backend que extrai os textos das sentenças,
+<a href="https://github.com/W8jonas/maranhao-legal-pdf-api">
+clique aqui.
+</a>
+
+Conheça o código da nossa solução frontend (site Maranhão Legal),
+<a href="https://github.com/agencia-dev-tech/hackthon-maranhao-legal">
+clique aqui.
+</a>
+
+<br/>
+
 ## Nosso time:
 
 Jonas Nascimento – Desenvolvedor FullStack e Empreendedor na área de Educação Digital. <br/>
