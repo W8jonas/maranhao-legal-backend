@@ -18,7 +18,7 @@
 
 <p align="center">
   <a href="#sobre">Maranhão Legal</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#nosso-produto-resumo">Nosso Produto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#nosso-produto">Nosso Produto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#fluxo-de-usuário-e-produto-completo">Fluxo de usuário e produto completo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#Nosso-time">Nosso time</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -39,7 +39,7 @@ O Maranhão também ficou entre os últimos estados brasileiros no ranking de ac
 O que causa diversos problemas para a população maranhense no que diz respeito ao acesso a justiça e ao entendimento da mesma.
 
 
-## Nosso produto (Resumo)
+## Nosso produto
 
 Somos uma plataforma digital que promove facilidade do entendimento das sentenças públicas do estado do Maranhão. Atuamos em 4 principais frentes:
 
@@ -50,11 +50,6 @@ Somos uma plataforma digital que promove facilidade do entendimento das sentenç
 3. Esse cidadão vai ter a listagem de todos os processos que tem sentença definida até o momento atual. 
 
 4. Dentro dos processos o indivíduo vai poder ver a sentença resumida visualmente, além de poder ouvir, baixar, imprimir e enviar essa sentença.
-
-
-#### Tela de Login - Minigame em dupla - Tela com ranking
-![](fotos_do_projeto/Login.png)  |  ![](fotos_do_projeto/Desafio.png) |  ![](fotos_do_projeto/Ranking.png)  |  
-:---------------:|:----------------:|:-----------------:|
 
 
 
@@ -90,8 +85,9 @@ clique aqui.
 
 Jonas Nascimento – Desenvolvedor FullStack e Empreendedor na área de Educação Digital. <br/>
 Laís Cosmo Lopes – Profissional de Marketing e Empreendedora na área de Educação Digital. <br/>
-Victor Ferreira – Gerente de produto e empreendedor educação digital. 
-Jonas Alves – Desenvolvedor Frontend.
+Victor Ferreira – Gerente de produto e empreendedor educação digital. <br/>
+Jonas Alves – Desenvolvedor Frontend. <br/>
+Ana Priscila – Servidora Pública do TJMA. <br/>
 
 <br/>
 
@@ -160,16 +156,5 @@ Ana Priscila:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 ![image](https://user-images.githubusercontent.com/95141271/143769310-2e16d33a-d48e-48f2-aac1-aef7846c2a53.png)
 
 Após passar por uma longa jornada de desenvolvimento de produto, validações e workshops de entedimento conseguimos chegar ao que está sendo exposto hoje.
-
-### Como funciona? 
-O aluno é levado a nossa plataforma como parte do sistema de ensino do curso. 
-Dentro do aplicativo ele acessará com login e senha, após realizar a autenticação e-mail + PIN numérico aleatório, código do desafio e autorizar os dispositivos de acesso. 
-Posteriormente, toda semana os alunos têm uma faixa de horário que devem estar presentes no app para executar um projeto. Eles entrarão na plataforma optativamente câmera e microfone e podem utilizar o chat. E assim são formados os times.
-
-O desafio proposto é apresentado a eles um desafio voltado para o módulo que os alunos estão. O aluno de forma aleatório é pareado com outro aluno de quem precisa para conseguir seguir adiante com exercícios propostos. 
-Os resultados dos exercícios propostas mais a interação são pontuados e vão criando ranking na plataforma. O ranking servirá para dar destaque aos alunos e, também descontos a partir de uma certa pontuação os alunos vão ganhando descontos na mensalidade do curso até 5% ou descontos em outros cursos da instituição. 
-
-A proposta é inovadora, pois além de ser uma plataforma que solucionar o problema proposto e ser educativa, se torna também uma ferramenta de marketing boca a boca, uma vez que todas as pessoas gostariam de uma plataforma em que elas podem obter descontos acumulativos mediante o próprio esforço.
-
 
 ![maranhao-legal](fotos_do_projeto/frame3.png)
