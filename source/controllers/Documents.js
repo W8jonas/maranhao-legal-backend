@@ -141,12 +141,11 @@ async function getByCpf(cpf) {
         const data = response.docs.map((doc) => ({...doc.data(), id: doc.id}));
         const account = data[0];
         
-        console.log('getByCpf', JSON.stringify(data))
-    
         return {
             status: '200',
             data: {
-                documents: account.docs
+                documents: account.docs,
+                name: account.name
             }
         }
     } catch (error) {
