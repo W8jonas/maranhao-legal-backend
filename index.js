@@ -10,6 +10,7 @@ admin.initializeApp();
 
 const DocumentsController  = require("./source/controllers/Documents")
 const VisualLawController  = require("./source/controllers/VisualLaw")
+const DatabaseController  = require("./source/controllers/Database")
 
 
 // buscar os documentos com base num CPF
@@ -28,4 +29,11 @@ appVisualLaw.get('/:id', async (req, res) => res.send(await VisualLawController.
 exports.v1_visualLaw = functions.https.onRequest(appVisualLaw);
 
 
+// Atualiza o banco de dados
+const appDatabase = express();
+appDatabase.use(cors({ origin: true }));
+
+appDatabase.post('/update-docs/', async (req, res) => res.send(await DatabaseController.updateDocs(req, res)));
+appDatabase.post('/update-users/', async (req, res) => res.send(await DatabaseController.updateUsers(req, res)));
+exports.v1_database = functions.https.onRequest(appDatabase);
 
